@@ -1,6 +1,6 @@
 #  Sentiment Analysis MLOps
 
-A production-ready Sentiment Analysis application built using **Hugging Face DistilBERT**, **FastAPI**, **MLflow**, **Docker**, and **AWS EC2**. The application predicts whether a given movie review is **Positive** or **Negative** through a simple web interface and REST API.
+A production-ready Sentiment Analysis application built using **Hugging Face DistilBERT**, **FastAPI**, **MLflow**, **Docker**, and **AWS EC2**. The application predicts whether a given movie review is **Positive** or **Negative**.
 
 ---
 
