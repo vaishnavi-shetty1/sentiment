@@ -25,7 +25,6 @@ The workflow includes:
 - ✅ IMDb Movie Review Sentiment Classification
 - ✅ Hugging Face DistilBERT Model
 - ✅ FastAPI REST API
-- ✅ Beautiful HTML/CSS Frontend
 - ✅ MLflow Experiment Tracking
 - ✅ MLflow Model Registry
 - ✅ Model Versioning
