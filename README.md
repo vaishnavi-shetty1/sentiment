@@ -16,8 +16,7 @@ The workflow includes:
 - Model Registry
 - REST API with FastAPI
 - Docker containerization
-- Interactive HTML/CSS frontend
-- Cloud deployment on AWS EC2
+- Cloud deployment on Render
 
 ---
 
@@ -31,7 +30,7 @@ The workflow includes:
 - ✅ MLflow Model Registry
 - ✅ Model Versioning
 - ✅ Dockerized Application
-- ✅ AWS EC2 Deployment
+- ✅ Model Deployment
 - ✅ Easy Model Inference
 - ✅ Production Ready Structure
 
@@ -56,11 +55,6 @@ The workflow includes:
 
 - MLflow
 
-## Frontend
-
-- HTML
-- CSS
-
 ## DevOps
 
 - Docker
@@ -69,7 +63,7 @@ The workflow includes:
 
 ## Cloud
 
-- AWS EC2
+- Render
 
 ---
 
@@ -166,7 +160,7 @@ http://localhost:8000/docs
 
 ---
 
-# 📈 MLflow
+#  MLflow
 
 Start MLflow UI
 
@@ -191,7 +185,7 @@ Track
 
 ---
 
-# 🤖 Model Training
+#  Model Training
 
 Train the model
 
@@ -239,28 +233,6 @@ Run Container
 
 ```bash
 docker run -p 8000:8000 sentiment-analysis
-```
-
----
-
-#  AWS EC2 Deployment
-
-1. Launch Ubuntu EC2 instance
-2. Install Docker
-3. Clone Repository
-4. Build Docker Image
-5. Run Container
-6. Allow ports
-
-- 22
-- 80
-- 8000
-- 5000 (optional)
-
-Access
-
-```
-http://<EC2-Public-IP>:8000
 ```
 
 ---
@@ -323,8 +295,3 @@ Classes
 - Automated Retraining Pipeline
 
 ---
-
-
-# ⭐ If you found this project useful
-
-Please consider giving this repository a ⭐ on GitHub.
